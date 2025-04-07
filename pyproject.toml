@@ -1,0 +1,19 @@
+[project]
+name = "ytdataminer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=0.8.0",
+    "ffmpeg-downloader>=0.4.0",
+    "ffmpeg-python>=0.2.0",
+    "llvmlite>=0.40.0",
+    "nest-asyncio>=1.5.8",
+    "numba>=0.57.0",
+    "openai-whisper>=20230918",
+    "pyyaml>=6.0",
+    "streamlit>=1.28.0",
+    "torch>=2.0.0",
+    "yt-dlp>=2023.10.13",
+]
